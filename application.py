@@ -3,4 +3,5 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello World!"
+    print("Handling request to home page.")
+    return "Hello All, This is Venkat. Azure Capstone Project 7"
